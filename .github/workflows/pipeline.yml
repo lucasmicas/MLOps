@@ -73,7 +73,7 @@ jobs:
 
           - name: Train Model
             run: |
-              python train.py 
+              python trainAlterada.py 
 
   build_image:
     runs-on: ubuntu-latest
